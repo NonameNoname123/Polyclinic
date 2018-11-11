@@ -9,8 +9,6 @@ namespace WebPolyclinic
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
-            //justcomm
-
         }
     }
 }
