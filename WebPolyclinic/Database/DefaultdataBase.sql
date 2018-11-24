@@ -25,7 +25,7 @@ CREATE table appointment(
 CREATE table patientRole(
 	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	policy TEXT NOT NULL,
-	passport TEXT NOT NULL,
+	password TEXT NOT NULL,
 	address TEXT NOT NULL,
 	phoneNumber TEXT NOT NULL,
 	user_id INTEGER NOT NULL,
